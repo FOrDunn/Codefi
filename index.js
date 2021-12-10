@@ -1,8 +1,10 @@
+import express from 'express'
 import 'dotenv/config'
 //if (process.env.NODE_ENV !== 'production')
  //dotenv.config();
 import discord from "discord.js"
 import ytdl from "ytdl-core"
+import path from "path"
 
 const { url, channelId, token } = process.env
 const client = new discord.Client();
@@ -99,3 +101,7 @@ client.on('raw', async dados => {
 });
 
 client.login(token);
+const app = express();
+app.get("/", (req, res)=> {res.sendFile("index.html",{root:"."})
+});
+app.listen(3333);

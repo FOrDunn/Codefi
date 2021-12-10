@@ -1,38 +1,92 @@
 {
-    
+    
     "name": "bot-lofi",
+    
     "version": "2.0.0",
+    
     "description": "Discord bot for lo-fi music radio",
+    
     "main": "index.js",
+    
     "type": "module",
+    
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+    
+        
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
     },
+    
     "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Ballerini-Server/Codefi.git"
+    
+        
+    "type": "git",
+    
+        
+    "url": "git+https://github.com/Ballerini-Server/Codefi.git"
+    
     },
+    
     "keywords": [
-        "discord-bot",
-        "bot",
-        "discord",
-        "discordjs",
-        "lofi"
+    
+        
+    "discord-bot",
+    
+        
+    "bot",
+    
+        
+    "discord",
+    
+        
+    "discordjs",
+    
+        
+    "lofi"
+    
     ],
+    
     "author": "https://github.com/tauzxd/",
+    
     "license": "ISC",
+    
     "bugs": {
-        "url": "https://github.com/Ballerini-Server/Codefi/issues"
+    
+        
+    "url": "https://github.com/Ballerini-Server/Codefi/issues"
+    
     },
+    
     "homepage": "https://github.com/Ballerini-Server/Codefi#readme",
+    
     "dependencies": {
-        "discord.js": "^12.5.3",
-        "discord.js-arbitrary-ffmpeg": "^1.1.0",
-        "dotenv": "^10.0.0",
-        "ffmpeg": "^0.0.4",
-        "ffmpeg-static": "^4.4.0",
-        "opusscript": "^0.0.8",
-        "ytdl": "^1.4.1",
-        "ytdl-core": "^4.9.1"
+    
+        
+    "discord.js": "^12.5.3",
+    
+        
+    "discord.js-arbitrary-ffmpeg": "^1.1.0",
+    
+        
+    "dotenv": "^10.0.0",
+    
+        
+    "express": "^4.17.1",
+    
+        
+    "ffmpeg": "^0.0.4",
+    
+        
+    "ffmpeg-static": "^4.4.0",
+    
+        
+    "opusscript": "^0.0.8",
+    
+        
+    "ytdl": "^1.4.1",
+    
+        
+    "ytdl-core": "^4.9.1"
+    
     }
 }
